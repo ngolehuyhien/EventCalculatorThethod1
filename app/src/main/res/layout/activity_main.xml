@@ -55,12 +55,13 @@
 
     <Button
         android:layout_below="@+id/input_b"
+        android:id="@+id/result"
         android:layout_marginTop="50dp"
         android:text="Tổng 2 số"
         android:textAllCaps="false"
         android:textSize="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClickAddButton"/>
+        />
 
 </RelativeLayout>
